@@ -1,6 +1,7 @@
 {
   "files": [
-    "typings/meteor.d.ts"
+    "typings/meteor.d.ts",
+    "typings/systemjs.d.ts"
   ],
   "compilerOptions": {
     "module": "system"

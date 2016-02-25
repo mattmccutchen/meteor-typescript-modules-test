@@ -9,7 +9,7 @@ if (Meteor.isClient) {
       return Session.get('counter');
     },
     motd: function() {
-      return "42"; //getMotd();
+      return getMotd();
     }
   });
 
