@@ -1,5 +1,8 @@
 {
   "files": [
     "typings/meteor.d.ts"
-  ]
+  ],
+  "compilerOptions": {
+    "module": "commonjs"
+  }
 }
