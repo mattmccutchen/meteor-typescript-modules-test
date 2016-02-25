@@ -1,4 +1,4 @@
-import {getMotd} from './foo.ts';
+import {getMotd} from 'foo';
 
 if (Meteor.isClient) {
   // counter starts at 0
@@ -9,7 +9,7 @@ if (Meteor.isClient) {
       return Session.get('counter');
     },
     motd: function() {
-      return getMotd();
+      return "42"; //getMotd();
     }
   });
 
